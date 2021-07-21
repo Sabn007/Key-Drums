@@ -1,0 +1,42 @@
+.container{
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	flex-grow: 10%;
+	background-color: aqua;
+}
+body{
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+.boxes{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: row;
+	width: 100%;
+	height: 80%;
+}
+
+.box{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 120px;
+	height: 120px;
+	border: 1px solid black;
+}
+.music{
+	content: none;
+}
+span{
+	font-size: 20px;
+	font-family: 'Courier New', Courier, monospace;
+}
+.text{
+	color: rgb(163, 13, 13);
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+   <style>
+       .border{
+           border: 1px solid yellow;
+           box-shadow: 1px yellow;
+       }
+   </style>
+</head>
+
+<body>
+<div class="container">
+    <div ><h1 class="text">Welcome To The Musical Keyboard</h1></div>
+    
+    <div class="boxes">
+        <div data-key="65"class="box"><H1 >A <br><span>(Tom)</span> </H1></div>
+        <div data-key="83" class="box"><h1>S <br><span>(boom)</span></h1></div>
+        <div data-key="68" class="box"><h1>D <br><span>(Clap)</span></h1></div>
+        <div data-key="70" class="box"><h1>F <br><span>(hihat)</span></h1></div>
+        <div data-key="71" class="box"><h1>G <br><span>(kick)</span></h1></div>
+        <div data-key="72" class="box"><h1>H <br><span>(openhat)</span></h1></div>
+        <div data-key="74" class="box"><h1>J <br><span>(ride)</span></h1></div>
+        <div data-key="75" class="box"><h1>K <br><span>(snare)</span></h1></div>
+        <div data-key="76" class="box"><h1>L <br> <span>(tink)</span>
+        </h1></div>
+        
+
+    </div>
+    <audio src="/sound/tom.wav" data-key="65"></audio>
+    <audio src="/sound/boom.wav" data-key="83"></audio>
+    <audio src="/sound/clap.wav" data-key="68"></audio>
+    <audio src="/sound/hihat.wav" data-key="70"></audio>
+    <audio src="/sound/kick.wav" data-key="71"></audio>
+    <audio src="/sound/openhat.wav" data-key="72"></audio>
+    <audio src="/sound/ride.wav" data-key="74"></audio>
+    <audio src="/sound/snare.wav" data-key="75"></audio>
+    <audio src="/sound/tink.wav" data-key="76"></audio>
+
+</div>  
+         
+
+    
+</body>
+<script src="/js/index.js"></script>
+</html>
